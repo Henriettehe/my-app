@@ -1,7 +1,6 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import Counter from '../components/Counter';
-
 //Kodekilde: Google og chatGpt for tips og triks :) 
 
 test('renders initial count of 0', () => {
