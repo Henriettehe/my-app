@@ -1,3 +1,5 @@
-export const useCounter = () => {
-    
+export const useCounter = (intialCount) => {
+    return{
+        count: intialCount
+    }
 }
