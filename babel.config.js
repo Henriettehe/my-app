@@ -1,7 +1,6 @@
 // Mest mulig oppdatert og nytt basert på babel og Javascript 
 
-
-const exports={
+module.exports={
     presets: [
         ['@babel/preset-env', {targets: { node: 'current'}}]
     ]
